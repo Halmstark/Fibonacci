@@ -1,0 +1,22 @@
+#include <iostream> // Ci¹g fibonacciego
+
+using namespace std;
+
+    int x=0;
+    int y=1;
+    int z;
+
+    int main()
+    {
+        cout <<x << y;
+
+        while (z<=100)
+        {
+            z=x+y;
+            cout << z;
+            x=y;
+            y=z;
+        }
+
+        return 0;
+    }
